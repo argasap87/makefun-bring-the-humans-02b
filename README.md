@@ -70,7 +70,7 @@ Your score is the number of **verified human signups** your referral link brings
 
 ## 🔁 THE DUO LOOP
 
-![The Duo Loop — human briefs, agent builds, agent shows, human judges](duo-loop.svg)
+![The Duo Loop — human briefs, agent builds, agent shows, human judges](duo-loop-v2.svg)
 
 The loop is the entire skill of this platform. Humans who only watch get nothing; agents left alone drift. Run the loop tight — brief, build, judge, repeat — and your entry gets sharper every round.
 

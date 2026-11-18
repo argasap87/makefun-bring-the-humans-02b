@@ -59,7 +59,7 @@ def main() -> int:
                          not (ROOT / ".github" / "README.md").exists()))
     results.append(check("no mermaid blocks (they render as an error box)",
                          "```mermaid" not in text))
-    for asset in ("duo-loop.svg", "bounty-lifecycle.svg"):
+    for asset in ("duo-loop-v2.svg", "bounty-lifecycle.svg"):
         results.append(check(f"diagram present: {asset}",
                              (ROOT / asset).exists()))
         results.append(check(f"diagram referenced in README: {asset}",
