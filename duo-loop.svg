@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-label="The human-agent duo loop">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img" aria-label="The human-agent duo loop">
+  <rect width="880" height="430" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="440" y="48" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#1f2328">THE DUO LOOP</text>
+  <text x="440" y="74" text-anchor="middle" font-family="monospace" font-size="13" fill="#57606a">neither of you wins alone — you take turns</text>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#14102a"/><stop offset="1" stop-color="#0b1e2e"/>
-    </linearGradient>
-    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0,0 L10,5 L0,10 z" fill="#ffd166"/>
+    <marker id="arrA" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9a6700"/>
+    </marker>
+    <marker id="arrB" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/>
     </marker>
   </defs>
-  <rect width="880" height="420" rx="18" fill="url(#bg)"/>
-  <text x="440" y="46" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#ffffff">THE DUO LOOP</text>
-  <text x="440" y="72" text-anchor="middle" font-family="monospace" font-size="13" fill="#9fb3c8">neither of you wins alone — you take turns</text>
   <!-- human node -->
-  <circle cx="200" cy="210" r="78" fill="#2b1d4e" stroke="#ffd166" stroke-width="3"/>
-  <text x="200" y="196" text-anchor="middle" font-family="monospace" font-size="34">🧑</text>
-  <text x="200" y="232" text-anchor="middle" font-family="monospace" font-size="17" font-weight="bold" fill="#ffffff">THE HUMAN</text>
-  <text x="200" y="254" text-anchor="middle" font-family="monospace" font-size="12" fill="#c9b8ff">judgement · taste · goals</text>
+  <circle cx="200" cy="200" r="72" fill="#fff8c5" stroke="#9a6700" stroke-width="3"/>
+  <text x="200" y="192" text-anchor="middle" font-family="monospace" font-size="32">🧑</text>
+  <text x="200" y="224" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" fill="#1f2328">THE HUMAN</text>
+  <text x="200" y="296" text-anchor="middle" font-family="monospace" font-size="13" fill="#57606a">judgement · taste · goals</text>
   <!-- agent node -->
-  <circle cx="680" cy="210" r="78" fill="#0e3a2f" stroke="#4ade80" stroke-width="3"/>
-  <text x="680" y="196" text-anchor="middle" font-family="monospace" font-size="34">🤖</text>
-  <text x="680" y="232" text-anchor="middle" font-family="monospace" font-size="17" font-weight="bold" fill="#ffffff">THE AGENT</text>
-  <text x="680" y="254" text-anchor="middle" font-family="monospace" font-size="12" fill="#a7f3d0">speed · stamina · code</text>
+  <circle cx="680" cy="200" r="72" fill="#dafbe1" stroke="#1a7f37" stroke-width="3"/>
+  <text x="680" y="192" text-anchor="middle" font-family="monospace" font-size="32">🤖</text>
+  <text x="680" y="224" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" fill="#1f2328">THE AGENT</text>
+  <text x="680" y="296" text-anchor="middle" font-family="monospace" font-size="13" fill="#57606a">speed · stamina · code</text>
   <!-- top arrow human -> agent -->
-  <path d="M 278 168 Q 440 96 602 168" fill="none" stroke="#ffd166" stroke-width="3" marker-end="url(#arr)"/>
-  <text x="440" y="118" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffd166">YOU BRIEF · IT BUILDS</text>
+  <path d="M 272 158 Q 440 92 608 158" fill="none" stroke="#9a6700" stroke-width="3" marker-end="url(#arrA)"/>
+  <text x="440" y="112" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#9a6700">YOU BRIEF · IT BUILDS</text>
   <!-- bottom arrow agent -> human -->
-  <path d="M 602 252 Q 440 324 278 252" fill="none" stroke="#4ade80" stroke-width="3" marker-end="url(#arr)"/>
-  <text x="440" y="312" text-anchor="middle" font-family="monospace" font-size="14" fill="#4ade80">IT SHOWS · YOU JUDGE</text>
-  <text x="440" y="388" text-anchor="middle" font-family="monospace" font-size="13" fill="#9fb3c8">every loop makes the entry sharper — and the human harder to replace</text>
+  <path d="M 608 242 Q 440 308 272 242" fill="none" stroke="#1a7f37" stroke-width="3" marker-end="url(#arrB)"/>
+  <text x="440" y="330" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#1a7f37">IT SHOWS · YOU JUDGE</text>
+  <text x="440" y="398" text-anchor="middle" font-family="monospace" font-size="13" fill="#57606a">every loop makes the entry sharper — and the human harder to replace</text>
 </svg>

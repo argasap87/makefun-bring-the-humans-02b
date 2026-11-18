@@ -1,10 +1,14 @@
 # 🎮 THE DUO MISSION — Bring the Humans (Again)
 
+**Earn USDC by bringing real humans to make.fun — 50 prizes, $1,000 total, and your AI agent does the building while you do the judging.**
+
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/argasap87/makefun-bring-the-humans-02b/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/argasap87/makefun-bring-the-humans-02b/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-> **Your referral code: `1ae1r9cj`**
+> ## 🚀 START HERE — your invite to the mission
+>
+> **Referral code: `1ae1r9cj`**
 >
 > **👉 Join with my link: https://make.fun/r/1ae1r9cj**
 >
@@ -58,7 +62,7 @@ Your score is the number of **verified human signups** your referral link brings
 - A signup counts only when a **new account is created with your code bound to it** inside the competition window.
 - The same checks that pay make.fun's referral rewards decide what counts — so **fake, bot, idle or self signups never count**. A signup that is your own account, shares your person or network, sits in an IP cluster of signups, or never takes part does not count.
 - Each signup passes a **24-hour review hold** before it is verified, and the final check runs up to 30 hours after the deadline.
-- An exact tie goes to the entry submitted first — so do not wait until the last hour.
+- **⚠️ Ties go to the entry submitted first — and a signup bound in the last 24 hours may still be inside its review hold when the deadline hits. Recruit early; do not wait until the last day.**
 
 **Translation:** bring real people who actually show up. One genuine friend beats a hundred empty accounts.
 
@@ -68,26 +72,11 @@ Your score is the number of **verified human signups** your referral link brings
 
 ![The Duo Loop — human briefs, agent builds, agent shows, human judges](duo-loop.svg)
 
-```mermaid
-flowchart LR
-    H[🧑 HUMAN<br/>brief · taste · decide] -->|brief| A[🤖 AGENT<br/>build · test · iterate]
-    A -->|show the work| H
-    H -->|approve or redirect| A
-```
-
 The loop is the entire skill of this platform. Humans who only watch get nothing; agents left alone drift. Run the loop tight — brief, build, judge, repeat — and your entry gets sharper every round.
 
 ## 🛤️ THE BOUNTY LIFECYCLE
 
 ![Bounty lifecycle — open, build, submit, scored, claim](bounty-lifecycle.svg)
-
-```mermaid
-flowchart LR
-    O[📋 OPEN<br/>bounty posted] --> B[🔨 BUILD<br/>duo loop]
-    B --> S[🚀 SUBMIT<br/>public repo]
-    S --> R[⚖️ SCORED<br/>verified + ranked]
-    R --> C[💰 CLAIM<br/>USDC on Solana]
-```
 
 ---
 
@@ -190,13 +179,13 @@ Tick these off before you submit anything:
 
 ## 📖 FIELD MANUAL: PICK YOUR CO-PILOT
 
-| Agent / tool | What it is | Best for |
-|---|---|---|
-| Claude Code | Anthropic's terminal coding agent | Long builds, careful refactors |
-| Codex | OpenAI's coding agent (terminal / cloud) | Fast iteration, broad tasks |
-| Cursor | AI-first code editor | Hands-on building with a human driving |
-| GitHub Copilot | AI pair programmer in your editor | Small tasks, autocomplete-style help |
-| Any agent harness | Any tool that records its session | Bounties that ask for build transcripts |
+| Agent / tool | What it is | Best for | Use it in |
+|---|---|---|---|
+| Claude Code | Anthropic's terminal coding agent | Long builds, careful refactors | Quests 4–5 |
+| Codex | OpenAI's coding agent (terminal / cloud) | Fast iteration, broad tasks | Quests 4–5 |
+| Cursor | AI-first code editor | Hands-on building with a human driving | Quest 5 |
+| GitHub Copilot | AI pair programmer in your editor | Small tasks, autocomplete-style help | Quest 5 |
+| Any agent harness | Any tool that records its session | Bounties that ask for build transcripts | Quest 6 |
 
 Rule of thumb: the best agent is the one you have already tested. A famous tool you have never run is worse than a plain one you know.
 
@@ -206,8 +195,8 @@ Rule of thumb: the best agent is the one you have already tested. A famous tool 
 
 1. **Signing up without a referral code.** The signup still works — it just scores nobody, including you.
 2. **Starting five bounties, finishing zero.** One finished entry beats five drafts.
-3. **Submitting at the last minute.** Ties go to the earlier submission, and a refused entry needs time to fix.
-4. **Building what the brief asked for, and nothing more.** Every other entry did that too. Add the one thing nobody else thought of.
+3. **Submitting at the last minute.** Ties go to the earlier submission, a refused entry needs time to fix, and a signup bound in the final 24 hours may still be inside its review hold at the deadline. Early beats perfect.
+4. **Building what the brief asked for, and nothing more.** Every other entry did that too. Add the one thing nobody else thought of — the judge skims dozens of entries, and the forgettable ones all look the same.
 5. **Trusting a preview instead of the receipt.** Check the real result — the submission receipt, the on-chain record — never the estimate.
 6. **Paying to enter.** Free bounties exist; learn the platform on those before you spend anything.
 7. **Bringing bots instead of humans.** Bot signups are filtered out by the same checks that pay referral rewards. They score zero and waste your time.

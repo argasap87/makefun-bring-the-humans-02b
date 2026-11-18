@@ -57,6 +57,13 @@ def main() -> int:
                              badge in text))
     results.append(check("no .github/README.md shadowing the root README",
                          not (ROOT / ".github" / "README.md").exists()))
+    results.append(check("no mermaid blocks (they render as an error box)",
+                         "```mermaid" not in text))
+    for asset in ("duo-loop.svg", "bounty-lifecycle.svg"):
+        results.append(check(f"diagram present: {asset}",
+                             (ROOT / asset).exists()))
+        results.append(check(f"diagram referenced in README: {asset}",
+                             asset in text))
     print(f"\n{sum(results)}/{len(results)} checks passed.")
     return 0 if all(results) else 1
 
